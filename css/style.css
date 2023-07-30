@@ -111,6 +111,11 @@ nav ul li a {
 
 /* Media query */
 @media screen and (max-width: 770px) {
+    #banner {
+    /* background: linear-gradient(rgba(0, 0, 0, .5), #009688), url(../images/banner.jpg); */
+    background-size: cover;
+    background-position: 75%;
+}
     .banner-text h1 {
         font-size: 44px;
     }
